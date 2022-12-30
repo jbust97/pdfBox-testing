@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>py.com.datasystems</groupId>
+  <artifactId>pdftest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>pdftest</name>
+  <description>Test pdfbox</description>
+  <dependencies>
+  	<dependency>
+	  <groupId>org.apache.pdfbox</groupId>
+	  <artifactId>pdfbox</artifactId>
+	  <version>2.0.22</version>
+	</dependency>
+	<dependency>
+    <groupId>org.apache.pdfbox</groupId>
+    <artifactId>pdfbox-tools</artifactId>
+    <version>2.0.0-RC1</version>
+	</dependency>
+
+
+  </dependencies>
+</project>
